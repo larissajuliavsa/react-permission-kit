@@ -1,0 +1,66 @@
+{
+  "name": "react-permission-kit",
+  "version": "0.4.0",
+  "description": "Uma biblioteca React leve, tipada e independente para controle de permissões e autorização em aplicações web.",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:watch": "vitest --watch"
+  },
+  "keywords": [
+    "react",
+    "permission",
+    "authorization",
+    "auth",
+    "access-control",
+    "acl",
+    "rbac",
+    "roles",
+    "typescript"
+  ],
+  "author": "Larissa",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larissa/react-permission-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/larissa/react-permission-kit/issues"
+  },
+  "homepage": "https://github.com/larissa/react-permission-kit#readme",
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.17",
+    "@vitejs/plugin-react": "^6.0.2",
+    "eslint": "^10.5.0",
+    "jsdom": "^29.1.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.61.1",
+    "vite": "^8.0.16",
+    "vite-plugin-dts": "^5.0.2",
+    "vitest": "^4.1.9"
+  }
+}
